@@ -1,0 +1,705 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-blue: #051650;
+}
+
+.navbar {
+    background-color: var(--bs-secondary);
+    height: 72px;
+}
+
+.navbar .navbar-nav .nav-link {
+    font-size: 20px;
+    color: var(--bs-info);
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+    color: var(--bs-white);
+}
+
+.navbar .navbar-toggler {
+    color: white;
+    font-size: 25px;
+    border-color: white;
+}
+
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* .home{
+    height: 100vh;
+    width: 100%;
+   background-size: cover;
+    background-image: url(../images/47453.jpg);
+} */
+.home-info {
+
+    min-height: calc(100vh - 72px);
+    min-width: 100%;
+    background-size: 100% 100%;
+    background-image: url(../images/47453.jpg);
+    background-size: cover;
+}
+
+
+
+.news a {
+    display: block;
+    font-size: 30px;
+    width: 50px;
+    height: 55px;
+    border: solid black;
+    text-align: center;
+    padding-top: 4px;
+    overflow: hidden;
+
+}
+
+
+.news {
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    top: 30%;
+    position: fixed;
+    z-index: 600;
+}
+
+.news-icons1 {
+    background-color: #3b5998;
+}
+
+.news-icons2 {
+    background-color: black;
+}
+
+.news-icons3 {
+    background-color: #0072b1;
+}
+
+.news-icons4 {
+    background-color: rgb(107, 165, 20);
+}
+
+.news-icons5 {
+    background-color: black;
+}
+
+.news-icons1:hover {
+    width: 200px;
+    height: auto;
+}
+
+.news-icons5:hover {
+    width: 200px;
+    height: auto;
+}
+
+.news-icons2:hover {
+    width: 200px;
+    height: auto;
+}
+
+.news-icons3:hover {
+    width: 200px;
+    height: auto;
+}
+
+.news-icons4:hover {
+    width: 200px;
+    height: auto;
+}
+
+.card {
+    transition: transform .2s;
+    height: auto;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.most-icons a {
+    font-size: 20px;
+    color: black;
+}
+
+.card {
+    position: relative;
+}
+
+.most-icons {
+    display: none;
+    transition: 0.2;
+}
+
+.card:hover .most-icons {
+    display: block;
+}
+
+body {
+    height: 100000000000px;
+}
+
+.line {
+    width: 100px;
+    height: 3px;
+    background-color: black;
+    margin: auto;
+    transition: 0.2s;
+}
+
+.underline:hover .line {
+    width: 300px;
+}
+
+.card .card-body .most-icons .bag {
+
+    position: absolute;
+    left: 80px;
+    bottom: 10px;
+    font-size: 13px;
+    color: black;
+}
+
+
+
+
+
+
+
+
+.sadan {
+    height: auto;
+
+}
+
+.sadan1 {
+    height: 630px;
+
+    border: solid black;
+    padding-left: 8px;
+    position: relative;
+
+}
+
+
+#img {
+    width: 98%;
+    height: 300px;
+    margin: auto;
+}
+
+
+
+.sadan1 h2 {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.sadan1 p {
+    font-size: 15px;
+
+}
+
+.sadan-info2 {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.sadan-info1 {
+    font-size: 20px;
+}
+
+.sadan1::after {
+    position: absolute;
+    width: 0;
+    height: 100%;
+    content: "";
+    background-color: black;
+    right: 0;
+    opacity: 0;
+    top: 0;
+    transition: 0.2s;
+}
+
+.sadan1:hover::after {
+    opacity: 0.6;
+    width: 50%;
+    height: 100%;
+}
+
+.sadan1::before {
+    position: absolute;
+    width: 0;
+    height: 100%;
+    content: "";
+    background-color: black;
+    left: 0;
+    opacity: 0;
+    top: 0;
+    transition: 0.2s;
+}
+
+.sadan1:hover::before {
+    opacity: 0.6;
+    width: 50%;
+    height: 100%;
+}
+
+.suv {
+    width: 99%;
+    margin: auto;
+    overflow: auto;
+    height: auto;
+
+}
+
+.suv1 {
+    height: 630px;
+    border: solid black;
+    padding-left: 8px;
+    position: relative;
+    transition: 0.3s;
+
+}
+
+
+#img {
+    width: 98%;
+    height: 300px;
+    margin: auto;
+}
+
+
+
+.suv1 h2 {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.suv1 p {
+    font-size: 15px;
+
+}
+
+.suv-info2 {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.suv-info1 {
+    font-size: 20px;
+}
+
+.wagon-info2 {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.wagon-info1 {
+    font-size: 20px;
+}
+
+.wagon {
+    height: auto;
+}
+
+.suv1::after {
+    position: absolute;
+    height: 0;
+    width: 100%;
+    content: "";
+    background-color: black;
+    right: 0;
+    opacity: 0;
+    top: 0;
+    transition: 0.2s;
+}
+
+.suv1:hover::after {
+    opacity: 0.6;
+    height: 50%;
+    width: 100%;
+}
+
+.suv1::before {
+    position: absolute;
+    height: 0;
+    width: 100%;
+    content: "";
+    background-color: black;
+    left: 0;
+    opacity: 0;
+    bottom: 0;
+    transition: 0.2s;
+}
+
+.suv1:hover::before {
+    opacity: 0.6;
+    height: 50%;
+    width: 100%;
+}
+
+.footer {
+    background-color: #4f919e;
+    height: auto;
+}
+
+.footer .copyright>span {
+    color: var(--bs-warning);
+}
+
+.footer .copyright div span {
+    color: var(--bs-warning);
+}
+
+.footer .contact ul svg {
+    width: 20px;
+    height: 20px;
+}
+
+.footer .facebook {
+    background-color: #1877f2;
+}
+
+.footer .twitter {
+    background-color: #1da1f2;
+}
+
+.footer .linkedin {
+    background-color: #0077b5;
+}
+
+.footer .youtube {
+    background-color: #ff0000;
+}
+
+.footer .btn10 {
+    background-color: var(--bs-blue);
+    color: white;
+    width: 250px;
+}
+
+
+.cars {
+    min-height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    transform-style: preserve-3d;
+}
+
+.container .box {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.container .box .body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: 0.9s ease;
+}
+
+
+
+.container .box .body .imgContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+
+.container .box .body .imgContainer img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .box .body .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+}
+
+.container .box:hover .body {
+    transform: rotateY(180deg);
+}
+
+.container .box .body .content div {
+    transform-style: preserve-3d;
+    padding: 20px;
+    background: linear-gradient(45deg, #FE0061, #FFEB3B);
+    transform: translateZ(100px);
+}
+
+.container .box .body .content div h3 {
+    letter-spacing: 1px;
+}
+
+.content {
+   
+   background-color:#d3f6fd;
+   
+    min-height: 330px;
+
+}
+
+.content p {
+   color: black;
+}
+
+.content h3 {
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    color: black;
+
+
+}
+
+.content span a {
+    font-size: 22px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+
+
+}
+
+.features .icon-holder {
+    height: 200px;
+}
+
+.features .icon-holder svg {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.features .icon-holder .number {
+    font-size: 12rem;
+    color: var(--section-color);
+}
+
+.features .icon-holder .icon {
+    color: var(--green-color);
+}
+
+.features .feat h4 {
+    color: var(--yellow-color);
+}
+
+.div1 {
+    border: black dotted;
+    height: 140px;
+    position: relative;
+    margin: 15px;
+}
+
+.div1 img {
+    left: 37px;
+    position: absolute;
+    top: 20px;
+}
+
+.con-act p {
+    font-size: 18px;
+}
+
+.con-act h3 {
+    font-size: 25px;
+    font-style: italic;
+}
+
+.inp {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 250px;
+
+}
+
+textarea {
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 180px;
+
+}
+
+.contact1 {
+    border: #343a40 dotted;
+    height: auto;
+    background-color: #b2d2d8;
+}
+
+.form1 {
+    background-color: var(--bs-gray);
+    min-height: 280px;
+}
+
+.form1 input {
+    width: 300px;
+    height: 25px;
+    margin-top: 5px;
+}
+
+.form1 .social button {
+    width: 150px;
+    height: 50px;
+
+
+}
+
+.btn1 {
+    margin-right: 28px;
+    margin-left: 28px;
+
+}
+
+.btn2 {
+    margin-right: 28px;
+    margin-left: 28px;
+    margin-top: 4px;
+}
+
+.form1 .social button a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn3 {
+    width: 180px;
+    height: 35px;
+    margin-top: 4px;
+}
+.lin1{
+    width: 70px;
+    height: 3px;
+    background-color: #051650;
+   border-radius: 1px;
+   transition: 0.1s;
+}
+.product-title:hover,.product-title:focus{
+    color: var(--bs-gray);
+}
+.under1:hover .lin1{
+    width: 130px;
+}
+.photo1{
+    transition: 0.1s;
+}
+.photo1 img {
+  border-radius: 13px;
+}
+.photo1:hover img{
+   transform: scale(0.8);
+}
+.pro1{
+    background-color:  #b2d2d8;
+    min-height: 400px;
+}
+.btn5{
+    background-color: #d8cbb2;
+}
+.pro1 button{
+    width: 120px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.div2{
+    background-image: url(../images/HD-wallpaper-blue-background-dark-texture-abstract.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100px;
+    color: white;
+  padding-top: 5px;
+}
+.div3{
+    text-align: center;
+}
+.div3  div a {
+    font-size: 28px;
+    color: white;
+}
+.div5 img{
+    width: 340px;
+    height: 300px;
+}
+.div5 button{
+    background-color: var(  --bs-blue);
+    width: 130px;
+    height: 32px;
+    border-radius: 10px;
+    color: white;
+}
+.div6 a{
+font-size: 30px;
+color:var( --bs-blue) ;
+}
+.div6{
+    text-align: center;
+}
+.div7 h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
